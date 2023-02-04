@@ -1,6 +1,6 @@
-import express from 'express'
-import * as dotenv from 'dotenv'
-import { Configuration, OpenAIApi } from "openai";
+import express from 'express';
+import * as dotenv from 'dotenv';
+import { Configuration, OpenAIApi } from 'openai';
 
 dotenv.config();
 
@@ -35,4 +35,4 @@ router.route('/').post(async (req, res) => {
   }
 });
 
-export default router;
+export default router
